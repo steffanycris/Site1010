@@ -1,0 +1,152 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: #B4D3C4;
+    width: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14pt;
+    color: #333; /* #333333*/
+}
+
+p {
+    margin: 0px 0px 20px 0px;
+    line-height: 1.8em; /* espaçamento entre linhas*/
+}
+
+h1 {
+    font-size: 18pt;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 14pt;
+    padding-bottom: 5px;
+}
+
+
+div#topo {
+    background-color: rgb(200, 225, 209);
+    width: 100%;
+    position: fixed;
+    z-index: 1000; /* Profundidade alta */
+}
+
+header {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+}
+
+div#marca-menu {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+}
+
+div#marca-menu h1 {
+    padding-top: 20px;
+    text-align: center;
+    line-height: 1em; /* espaçamento entre linhas */
+    font-family: courier;
+    font-size: 36pt;
+    color: #5F8575;
+}
+
+nav {
+    width: 940px;
+    margin: auto;
+}
+
+nav ul {
+    display: flex; /* texto lado a lado*/
+    list-style: none; /* remove os marcadores */
+    text-transform: uppercase;
+}
+
+nav ul li {
+    padding: 20px;
+    margin: auto;
+    font-size: 11pt;
+    transition: background-color 0.5s;
+}
+/* hover : quando passar o mouse */
+nav ul li:hover {
+    background-color: #B4D3C4;
+}
+
+nav ul li a {
+    text-decoration: none; /* retira o sublinhado do link*/
+    color: #5F8575;
+}
+
+nav ul li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+div#interface {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 940px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding:170px 10px 20px 10px;
+}
+
+section {
+    width: 100%;
+}
+
+article {
+    width: 70%;
+    float: left;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+.imagem {
+
+    width:95%;
+    padding-bottom:10px;
+    margin:auto;
+
+}
+
+footer {
+
+    clear: both;
+    width:100%;
+    height:50px;
+    padding-top:15px;
+    line-height:100px; /* espaçamento entre linhas*/
+    text-align:right;
+    front-size:12pt;
+    border-top:1px solid #333;
+
+}
+
+footer a {
+
+    color: #B4D3C4;
+    text-decoration:none;
+
+}
+
+.video {
+
+    width: 560px;
+    height:315px;
+
+}
+
+.mapa{
+
+    width:920px;
+    height:1100px;
+
+}
